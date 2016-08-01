@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/elephone/p9000/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/elephone/p9000/proprietary/bin/xlog:system/bin/xlog \
- vendor/elephone/p9000/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
  vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \

@@ -7,6 +7,8 @@ It was announced on 25 December 2015.
 
 Now P9000 supporting CyanogenMod 13.0
 
+For more information about building read "manual"
+
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | 2.0GHz Octa-Core MT6755 (Helio P10)
@@ -15,27 +17,29 @@ Memory  | 4GB RAM
 Shipped Android Version | 6.0
 Storage | 32GB
 Battery | 3000 mAh
-Display | 5.5" 1920 x 1080 px
+Display | 5.5" 1920 x 1080 px DPI 480
 Rear Camera | 13MP (Sony IMX258 Exmor RS), Dual LED Flash, Laser autofocus
 Front Camera | 8MP (OV)
 
 ![Elephone P9000](http://www.pixic.ru/i/p0Y19177m022b1u5.png "Elephone P9000 in black")
 
-This branch is for building CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP based roms) ROM.
+This branch is vendor for building of CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP based roms) ROM.
 
 ## Working:
  * It is boots and hardware accelerated!
  * WiFi
+ * GPS
  * Vibration
  * Audio
  * Auto brightness
  * Doze
+ * RAM and ROM
  * Rotation
  * All sensors
- * NFC
+ * NFC (Payments, pairing)
  * Lazer autofocus
  * Bluetooth
- * Camera (Video and Photos)
+ * Camera rear/front (Video and Photos)
  * External SD
  * RIL for SMS/Calls/Internet/Lte on 1 and 2 SIM
  * MTP and Mass Storage mode
@@ -45,10 +49,8 @@ This branch is for building CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP ba
  * FM Radio
 
 ## Not working (yet):
- * Tethering
- * Gps
+ * Wi-Fi Tethering
  * Hdr in camera app
- * Memory deffect (Settings/memory - no information - it is a reason why after reboot not loading widgets and recent's non working)
 
 ## Thanks to:
  * CyanogenMod team
@@ -56,4 +58,4 @@ This branch is for building CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP ba
  * Xen0n
  * Leskal
  * JonnyXDA
-
+ * olegsvs
