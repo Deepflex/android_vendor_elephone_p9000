@@ -627,6 +627,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+ vendor/elephone/p9000/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
  vendor/elephone/p9000/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
  vendor/elephone/p9000/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
  vendor/elephone/p9000/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
