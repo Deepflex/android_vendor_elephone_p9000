@@ -225,11 +225,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
- vendor/elephone/p9000/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
- vendor/elephone/p9000/proprietary/etc/wide-dhcpv6/dhcp6cctlkey:system/etc/wide-dhcpv6/dhcp6cctlkey \
- vendor/elephone/p9000/proprietary/etc/wide-dhcpv6/dhcp6cDNS.conf:system/etc/wide-dhcpv6/dhcp6cDNS.conf \
- vendor/elephone/p9000/proprietary/etc/wide-dhcpv6/dhcp6c.script:system/etc/wide-dhcpv6/dhcp6c.script \
- vendor/elephone/p9000/proprietary/etc/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -373,7 +368,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
  vendor/elephone/p9000/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
- vendor/elephone/p9000/proprietary/lib64/libmtknfc_dynamic_load_jni.so:system/lib64/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
@@ -383,6 +377,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
  vendor/elephone/p9000/proprietary/lib64/libnfc_mt6605_jni.so:system/lib64/libnfc_mt6605_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
+ vendor/elephone/p9000/proprietary/lib64/libem_nfc_jni.so:system/lib64/libem_nfc_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
@@ -411,6 +406,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/elephone/p9000/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/elephone/p9000/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
+ vendor/elephone/p9000/proprietary/lib64/libmtknfc_dynamic_load_jni.so:system/lib64/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
