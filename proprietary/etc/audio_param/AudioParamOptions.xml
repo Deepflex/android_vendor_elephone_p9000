@@ -41,5 +41,7 @@
  <Param name="VIR_MAGI_CONFERENCE_SUPPORT" value="no" /> 
  <Param name="MTK_AUDIO_HIERARCHICAL_PARAM_SUPPORT" value="yes" /> 
  <Param name="MTK_AUDIO_TUNING_TOOL_V2_PHASE" value="2" /> 
+ <Param name="RCV_PATH_INT" value="yes" />
+ <Param name="SPK_PATH_LO" value="yes" />
  <Param name="5_POLE_HS_SUPPORT" value="" />
 </AudioParamOptions>

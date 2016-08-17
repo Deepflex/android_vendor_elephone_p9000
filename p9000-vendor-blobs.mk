@@ -183,40 +183,39 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
  vendor/elephone/p9000/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
  vendor/elephone/p9000/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
- vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
- vendor/elephone/p9000/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/p2p_polling.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_config.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_polling.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_polling.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/listen_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/listen_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/p2p_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/p2p_polling.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_config.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_polling.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Others/listen_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/listen_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Others/p2p_config.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/p2p_polling.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config.txt \
- vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt \
+ vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
+ vendor/elephone/p9000/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/elephone/p9000/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
  vendor/elephone/p9000/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/elephone/p9000/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
@@ -225,6 +224,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
  vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
+ vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
  vendor/elephone/p9000/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -367,6 +367,8 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
+ vendor/elephone/p9000/proprietary/lib64/libem_nfc_jni.so:system/lib64/libem_nfc_jni.so \
+ vendor/elephone/p9000/proprietary/lib64/libmtknfc_dynamic_load_jni.so:system/lib64/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
  vendor/elephone/p9000/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
@@ -377,7 +379,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
  vendor/elephone/p9000/proprietary/lib64/libnfc_mt6605_jni.so:system/lib64/libnfc_mt6605_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
- vendor/elephone/p9000/proprietary/lib64/libem_nfc_jni.so:system/lib64/libem_nfc_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
@@ -406,7 +407,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/elephone/p9000/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/elephone/p9000/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
- vendor/elephone/p9000/proprietary/lib64/libmtknfc_dynamic_load_jni.so:system/lib64/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
@@ -498,7 +498,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
  vendor/elephone/p9000/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
  vendor/elephone/p9000/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
- vendor/elephone/p9000/proprietary/lib/libDR.so:system/lib/libDR.so \
  vendor/elephone/p9000/proprietary/lib/libeffect.facebeautypp.so:system/lib/libeffect.facebeautypp.so \
  vendor/elephone/p9000/proprietary/lib/libeffecthal.base.so:system/lib/libeffecthal.base.so \
  vendor/elephone/p9000/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
@@ -511,7 +510,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
- vendor/elephone/p9000/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/elephone/p9000/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
  vendor/elephone/p9000/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
@@ -548,8 +546,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
  vendor/elephone/p9000/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/elephone/p9000/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
- vendor/elephone/p9000/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
- vendor/elephone/p9000/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/elephone/p9000/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
  vendor/elephone/p9000/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libm.so:system/lib/libm.so \
@@ -559,8 +555,8 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
  vendor/elephone/p9000/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
- vendor/elephone/p9000/proprietary/lib/libmtknfc_dynamic_load_jni.so:system/lib/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib/libmtknfc.so:system/lib/libmtknfc.so \
+ vendor/elephone/p9000/proprietary/lib/libmtknfc_dynamic_load_jni.so:system/lib/libmtknfc_dynamic_load_jni.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -613,6 +609,10 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+ vendor/elephone/p9000/proprietary/lib/libDR.so:system/lib/libDR.so \
+ vendor/elephone/p9000/proprietary/lib/libfusion.so:system/lib/libfusion.so \
+ vendor/elephone/p9000/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
+ vendor/elephone/p9000/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/elephone/p9000/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/elephone/p9000/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
  vendor/elephone/p9000/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
