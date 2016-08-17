@@ -21,7 +21,7 @@ Display | 5.5" 1920 x 1080 px DPI 480
 Rear Camera | 13MP (Sony IMX258 Exmor RS), Dual LED Flash, Laser autofocus
 Front Camera | 8MP (OV)
 
-![Elephone P9000](http://www.pixic.ru/i/p0Y19177m022b1u5.png "Elephone P9000 in black")
+![Elephone P9000](http://g03.a.alicdn.com/kf/HTB1.TsuKVXXXXanXXXXq6xXFXXX6/Official-Direct-Elephone-P9000-Helio-P10-MTK6755-2-0GHz-Octa-Core-4GB-RAM-32GB-ROM-5.jpg "Elephone P9000 in black")
 
 This branch is vendor for building of CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP based roms) ROM.
 
@@ -45,6 +45,7 @@ This branch is vendor for building of CyanogenMod 13.0 (or Android Marshmallow 6
  * Flashlight (Statusbar and Camera)
  * Bluetooth
  * Camera rear/front (Video and Photos)
+ * Hdr in camera app
  * External SD
  * RIL for SMS/Calls/Internet/Lte on 1 and 2 SIM
  * MTP and Mass Storage mode
@@ -55,7 +56,6 @@ This branch is vendor for building of CyanogenMod 13.0 (or Android Marshmallow 6
 
 ## Not working (yet):
  * Wi-Fi Tethering
- * Hdr in camera app
 
 ## Thanks to:
  * CyanogenMod team
