@@ -47,7 +47,7 @@
     </ParamUnit>
     <ParamUnit param_id="4">
       <Param name="headset_pga" value="-1"/>
-      <Param name="speaker_pga" value="3"/>
+      <Param name="speaker_pga" value="10"/>
       <Param name="receiver_pga" value="-1"/>
       <Param name="amp" value="0,0,0,0,0,0,0,0,0,0"/>
     </ParamUnit>
