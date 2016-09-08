@@ -31,8 +31,8 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/atci_service:system/bin/atci_service \
  vendor/elephone/p9000/proprietary/bin/atcid:system/bin/atcid \
  vendor/elephone/p9000/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
+ vendor/elephone/p9000/proprietary/bin/autobt:system/bin/autobt \
  vendor/elephone/p9000/proprietary/bin/autokd:system/bin/autokd \
- vendor/elephone/p9000/proprietary/bin/badblocks:system/bin/badblocks \
  vendor/elephone/p9000/proprietary/bin/batterywarning:system/bin/batterywarning \
  vendor/elephone/p9000/proprietary/bin/bmm050d:system/bin/bmm050d \
  vendor/elephone/p9000/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
@@ -51,27 +51,18 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/gas_srv:system/bin/gas_srv \
  vendor/elephone/p9000/proprietary/bin/ged_srv:system/bin/ged_srv \
  vendor/elephone/p9000/proprietary/bin/geomagneticd:system/bin/geomagneticd \
- vendor/elephone/p9000/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
- vendor/elephone/p9000/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
  vendor/elephone/p9000/proprietary/bin/guiext-server:system/bin/guiext-server \
- vendor/elephone/p9000/proprietary/bin/hostapd:system/bin/hostapd \
- vendor/elephone/p9000/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
  vendor/elephone/p9000/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
- vendor/elephone/p9000/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
  vendor/elephone/p9000/proprietary/bin/lsm303md:system/bin/lsm303md \
  vendor/elephone/p9000/proprietary/bin/magd:system/bin/magd \
- vendor/elephone/p9000/proprietary/bin/make_ext4fs:system/bin/make_ext4fs \
  vendor/elephone/p9000/proprietary/bin/matv:system/bin/matv \
  vendor/elephone/p9000/proprietary/bin/mc6420d:system/bin/mc6420d \
  vendor/elephone/p9000/proprietary/bin/md_ctrl:system/bin/md_ctrl \
  vendor/elephone/p9000/proprietary/bin/mdlogger:system/bin/mdlogger \
- vendor/elephone/p9000/proprietary/bin/memorydumper:system/bin/memorydumper \
  vendor/elephone/p9000/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/elephone/p9000/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
  vendor/elephone/p9000/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
- vendor/elephone/p9000/proprietary/bin/meta_tst:system/bin/meta_tst \
  vendor/elephone/p9000/proprietary/bin/mfv_ut:system/bin/mfv_ut \
- vendor/elephone/p9000/proprietary/bin/mmp:system/bin/mmp \
  vendor/elephone/p9000/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
  vendor/elephone/p9000/proprietary/bin/msensord:system/bin/msensord \
  vendor/elephone/p9000/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
@@ -81,104 +72,22 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
  vendor/elephone/p9000/proprietary/bin/nvram_proximity:system/bin/nvram_proximity \
  vendor/elephone/p9000/proprietary/bin/orientationd:system/bin/orientationd \
- vendor/elephone/p9000/proprietary/bin/perf_native_test:system/bin/perf_native_test \
  vendor/elephone/p9000/proprietary/bin/ppl_agent:system/bin/ppl_agent \
- vendor/elephone/p9000/proprietary/bin/pppd:system/bin/pppd \
  vendor/elephone/p9000/proprietary/bin/pppd_dt:system/bin/pppd_dt \
  vendor/elephone/p9000/proprietary/bin/pq:system/bin/pq \
  vendor/elephone/p9000/proprietary/bin/program_binary_service:system/bin/program_binary_service \
  vendor/elephone/p9000/proprietary/bin/qmcX983d:system/bin/qmcX983d \
- vendor/elephone/p9000/proprietary/bin/racoon:system/bin/racoon \
  vendor/elephone/p9000/proprietary/bin/radvd:system/bin/radvd \
- vendor/elephone/p9000/proprietary/bin/rtt:system/bin/rtt \
- vendor/elephone/p9000/proprietary/bin/run-as:system/bin/run-as \
  vendor/elephone/p9000/proprietary/bin/s62xd:system/bin/s62xd \
  vendor/elephone/p9000/proprietary/bin/sn:system/bin/sn \
  vendor/elephone/p9000/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/elephone/p9000/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/elephone/p9000/proprietary/bin/terservice:system/bin/terservice \
- vendor/elephone/p9000/proprietary/bin/tertestclient:system/bin/tertestclient \
- vendor/elephone/p9000/proprietary/bin/thermal:system/bin/thermal \
- vendor/elephone/p9000/proprietary/bin/thermal_manager:system/bin/thermal_manager \
- vendor/elephone/p9000/proprietary/bin/thermald:system/bin/thermald \
- vendor/elephone/p9000/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
- vendor/elephone/p9000/proprietary/bin/tiny_mkswap:system/bin/tiny_mkswap \
- vendor/elephone/p9000/proprietary/bin/tiny_swapoff:system/bin/tiny_swapoff \
- vendor/elephone/p9000/proprietary/bin/tiny_swapon:system/bin/tiny_swapon \
  vendor/elephone/p9000/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/elephone/p9000/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/elephone/p9000/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/elephone/p9000/proprietary/bin/xlog:system/bin/xlog \
- vendor/elephone/p9000/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
- vendor/elephone/p9000/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
- vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
- vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
- vendor/elephone/p9000/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
- vendor/elephone/p9000/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
- vendor/elephone/p9000/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
  vendor/elephone/p9000/proprietary/etc/MTKNfclicense.lic:system/etc/MTKNfclicense.lic \
- vendor/elephone/p9000/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackDRC_AudioParam.xml:system/etc/audio_param/PlaybackDRC_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:system/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackHCF_AudioParam.xml:system/etc/audio_param/PlaybackHCF_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolAna_AudioParam.xml:system/etc/audio_param/PlaybackVolAna_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolDigi_AudioParam.xml:system/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolUI_AudioParam.xml:system/etc/audio_param/PlaybackVolUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:system/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Playback_AudioParam.xml:system/etc/audio_param/Playback_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Playback_ParamTreeView.xml:system/etc/audio_param/Playback_ParamTreeView.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Playback_ParamUnitDesc.xml:system/etc/audio_param/Playback_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordDMNR_AudioParam.xml:system/etc/audio_param/RecordDMNR_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:system/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordFIR_AudioParam.xml:system/etc/audio_param/RecordFIR_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordFIR_ParamUnitDesc.xml:system/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordUI_AudioParam.xml:system/etc/audio_param/RecordUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordUI_ParamUnitDesc.xml:system/etc/audio_param/RecordUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordVolUI_AudioParam.xml:system/etc/audio_param/RecordVolUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:system/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordVol_AudioParam.xml:system/etc/audio_param/RecordVol_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/RecordVol_ParamUnitDesc.xml:system/etc/audio_param/RecordVol_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Record_AudioParam.xml:system/etc/audio_param/Record_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Record_ParamTreeView.xml:system/etc/audio_param/Record_ParamTreeView.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Record_ParamUnitDesc.xml:system/etc/audio_param/Record_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechDMNR_AudioParam.xml:system/etc/audio_param/SpeechDMNR_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:system/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechGeneral_AudioParam.xml:system/etc/audio_param/SpeechGeneral_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:system/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechMagiClarity_AudioParam.xml:system/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:system/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechUI_AudioParam.xml:system/etc/audio_param/SpeechUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechUI_ParamUnitDesc.xml:system/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVolUI_AudioParam.xml:system/etc/audio_param/SpeechVolUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:system/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVol_AudioParam.xml:system/etc/audio_param/SpeechVol_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/SpeechVol_ParamUnitDesc.xml:system/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Speech_AudioParam.xml:system/etc/audio_param/Speech_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Speech_ParamTreeView.xml:system/etc/audio_param/Speech_ParamTreeView.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Speech_ParamUnitDesc.xml:system/etc/audio_param/Speech_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPDMNR_AudioParam.xml:system/etc/audio_param/VoIPDMNR_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:system/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPGeneral_AudioParam.xml:system/etc/audio_param/VoIPGeneral_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:system/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPUI_AudioParam.xml:system/etc/audio_param/VoIPUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPUI_ParamUnitDesc.xml:system/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVolUI_AudioParam.xml:system/etc/audio_param/VoIPVolUI_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:system/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVol_AudioParam.xml:system/etc/audio_param/VoIPVol_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIPVol_ParamUnitDesc.xml:system/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_AudioParam.xml:system/etc/audio_param/VoIP_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_ParamTreeView.xml:system/etc/audio_param/VoIP_ParamTreeView.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VoIP_ParamUnitDesc.xml:system/etc/audio_param/VoIP_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VolumeGainMap_AudioParam.xml:system/etc/audio_param/VolumeGainMap_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
- vendor/elephone/p9000/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
- vendor/elephone/p9000/proprietary/etc/clatd.conf:system/etc/clatd.conf \
  vendor/elephone/p9000/proprietary/etc/custom.conf:system/etc/custom.conf \
  vendor/elephone/p9000/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
@@ -204,7 +113,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/pcm_suspend.bin:system/etc/firmware/pcm_suspend.bin \
  vendor/elephone/p9000/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
- vendor/elephone/p9000/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
  vendor/elephone/p9000/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/elephone/p9000/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt \
@@ -243,9 +151,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
- vendor/elephone/p9000/proprietary/lib/drm/libdrmctaplugin.so:system/lib/drm/libdrmctaplugin.so \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
- vendor/elephone/p9000/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
@@ -260,11 +166,9 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
  vendor/elephone/p9000/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
  vendor/elephone/p9000/proprietary/lib/libDR.so:system/lib/libDR.so \
- vendor/elephone/p9000/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
  vendor/elephone/p9000/proprietary/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
  vendor/elephone/p9000/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
  vendor/elephone/p9000/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
- vendor/elephone/p9000/proprietary/lib/libMiraVision_jni.so:system/lib/libMiraVision_jni.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
@@ -278,12 +182,22 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
  vendor/elephone/p9000/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
- vendor/elephone/p9000/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
  vendor/elephone/p9000/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
  vendor/elephone/p9000/proprietary/lib/libPQDCjni.so:system/lib/libPQDCjni.so \
  vendor/elephone/p9000/proprietary/lib/libPQjni.so:system/lib/libPQjni.so \
  vendor/elephone/p9000/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
  vendor/elephone/p9000/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v1.so:system/lib/lib_agoldlens_dw9714af_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v2.so:system/lib/lib_agoldlens_dw9714af_v2.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v3.so:system/lib/lib_agoldlens_dw9714af_v3.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9800af_v1.so:system/lib/lib_agoldlens_dw9800af_v1.so \
+ vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9800af_v2.so:system/lib/lib_agoldlens_dw9800af_v2.so \
  vendor/elephone/p9000/proprietary/lib/liba3m.so:system/lib/liba3m.so \
  vendor/elephone/p9000/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/elephone/p9000/proprietary/lib/libaed.so:system/lib/libaed.so \
@@ -318,7 +232,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
  vendor/elephone/p9000/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
  vendor/elephone/p9000/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
- vendor/elephone/p9000/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
  vendor/elephone/p9000/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
  vendor/elephone/p9000/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
  vendor/elephone/p9000/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
@@ -358,22 +271,20 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
- vendor/elephone/p9000/proprietary/lib/libem_nfc_jni.so:system/lib/libem_nfc_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
  vendor/elephone/p9000/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
+ vendor/elephone/p9000/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/elephone/p9000/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/elephone/p9000/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
- vendor/elephone/p9000/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
  vendor/elephone/p9000/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/elephone/p9000/proprietary/lib/libgas.so:system/lib/libgas.so \
  vendor/elephone/p9000/proprietary/lib/libged.so:system/lib/libged.so \
  vendor/elephone/p9000/proprietary/lib/libgem.so:system/lib/libgem.so \
  vendor/elephone/p9000/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
  vendor/elephone/p9000/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
- vendor/elephone/p9000/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
- vendor/elephone/p9000/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
  vendor/elephone/p9000/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/elephone/p9000/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -381,9 +292,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/elephone/p9000/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
  vendor/elephone/p9000/proprietary/lib/libja3m.so:system/lib/libja3m.so \
- vendor/elephone/p9000/proprietary/lib/libjni_lomoeffect.so:system/lib/libjni_lomoeffect.so \
  vendor/elephone/p9000/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
- vendor/elephone/p9000/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
  vendor/elephone/p9000/proprietary/lib/libm.so:system/lib/libm.so \
  vendor/elephone/p9000/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/elephone/p9000/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
@@ -397,7 +306,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
  vendor/elephone/p9000/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/elephone/p9000/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
- vendor/elephone/p9000/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
  vendor/elephone/p9000/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/elephone/p9000/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
@@ -408,15 +316,10 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
  vendor/elephone/p9000/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
- vendor/elephone/p9000/proprietary/lib/libmtknfc.so:system/lib/libmtknfc.so \
- vendor/elephone/p9000/proprietary/lib/libmtknfc_dynamic_load_jni.so:system/lib/libmtknfc_dynamic_load_jni.so \
- vendor/elephone/p9000/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
  vendor/elephone/p9000/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/elephone/p9000/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
  vendor/elephone/p9000/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
  vendor/elephone/p9000/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
- vendor/elephone/p9000/proprietary/lib/libnfc_mt6605_jni.so:system/lib/libnfc_mt6605_jni.so \
- vendor/elephone/p9000/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
  vendor/elephone/p9000/proprietary/lib/libnvram.so:system/lib/libnvram.so \
  vendor/elephone/p9000/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
@@ -432,9 +335,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
  vendor/elephone/p9000/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
  vendor/elephone/p9000/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
- vendor/elephone/p9000/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
- vendor/elephone/p9000/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
- vendor/elephone/p9000/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
  vendor/elephone/p9000/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
  vendor/elephone/p9000/proprietary/lib/libudf.so:system/lib/libudf.so \
  vendor/elephone/p9000/proprietary/lib/libui.so:system/lib/libui.so \
@@ -442,10 +342,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
  vendor/elephone/p9000/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
  vendor/elephone/p9000/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
- vendor/elephone/p9000/proprietary/lib/libvie.so:system/lib/libvie.so \
- vendor/elephone/p9000/proprietary/lib/libvie_jni.so:system/lib/libvie_jni.so \
- vendor/elephone/p9000/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
- vendor/elephone/p9000/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
  vendor/elephone/p9000/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/elephone/p9000/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
@@ -467,13 +363,23 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
  vendor/elephone/p9000/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
  vendor/elephone/p9000/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
- vendor/elephone/p9000/proprietary/lib64/libMiraVision_jni.so:system/lib64/libMiraVision_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/elephone/p9000/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
  vendor/elephone/p9000/proprietary/lib64/libPQDCjni.so:system/lib64/libPQDCjni.so \
  vendor/elephone/p9000/proprietary/lib64/libPQjni.so:system/lib64/libPQjni.so \
  vendor/elephone/p9000/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
  vendor/elephone/p9000/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v1.so:system/lib64/lib_agoldlens_dw9714af_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v2.so:system/lib64/lib_agoldlens_dw9714af_v2.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v3.so:system/lib64/lib_agoldlens_dw9714af_v3.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9800af_v1.so:system/lib64/lib_agoldlens_dw9800af_v1.so \
+ vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9800af_v2.so:system/lib64/lib_agoldlens_dw9800af_v2.so \
  vendor/elephone/p9000/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
  vendor/elephone/p9000/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
  vendor/elephone/p9000/proprietary/lib64/libaed.so:system/lib64/libaed.so \
@@ -484,8 +390,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
  vendor/elephone/p9000/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
  vendor/elephone/p9000/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
- vendor/elephone/p9000/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
- vendor/elephone/p9000/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
  vendor/elephone/p9000/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
  vendor/elephone/p9000/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libblisrc.so:system/lib64/libblisrc.so \
@@ -507,7 +411,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
- vendor/elephone/p9000/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
  vendor/elephone/p9000/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
@@ -547,13 +450,13 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_modem_jni.so:system/lib64/libem_modem_jni.so \
- vendor/elephone/p9000/proprietary/lib64/libem_nfc_jni.so:system/lib64/libem_nfc_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_sensor_jni.so:system/lib64/libem_sensor_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
  vendor/elephone/p9000/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
+ vendor/elephone/p9000/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
+ vendor/elephone/p9000/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
- vendor/elephone/p9000/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
  vendor/elephone/p9000/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/elephone/p9000/proprietary/lib64/libged.so:system/lib64/libged.so \
  vendor/elephone/p9000/proprietary/lib64/libgem.so:system/lib64/libgem.so \
@@ -566,9 +469,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libion.so:system/lib64/libion.so \
  vendor/elephone/p9000/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
  vendor/elephone/p9000/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
- vendor/elephone/p9000/proprietary/lib64/libjni_lomoeffect.so:system/lib64/libjni_lomoeffect.so \
  vendor/elephone/p9000/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
- vendor/elephone/p9000/proprietary/lib64/liblogwrap.so:system/lib64/liblogwrap.so \
  vendor/elephone/p9000/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
  vendor/elephone/p9000/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
  vendor/elephone/p9000/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
@@ -586,16 +487,10 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/elephone/p9000/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
- vendor/elephone/p9000/proprietary/lib64/libmtknfc_dynamic_load_jni.so:system/lib64/libmtknfc_dynamic_load_jni.so \
- vendor/elephone/p9000/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/elephone/p9000/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
- vendor/elephone/p9000/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
- vendor/elephone/p9000/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
  vendor/elephone/p9000/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/elephone/p9000/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
  vendor/elephone/p9000/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
- vendor/elephone/p9000/proprietary/lib64/libnfc_mt6605_jni.so:system/lib64/libnfc_mt6605_jni.so \
- vendor/elephone/p9000/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/elephone/p9000/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
@@ -608,10 +503,7 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
  vendor/elephone/p9000/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/elephone/p9000/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
- vendor/elephone/p9000/proprietary/lib64/libsysutils.so:system/lib64/libsysutils.so \
  vendor/elephone/p9000/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
- vendor/elephone/p9000/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
- vendor/elephone/p9000/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
  vendor/elephone/p9000/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/elephone/p9000/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/elephone/p9000/proprietary/lib64/libui.so:system/lib64/libui.so \
@@ -619,38 +511,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
  vendor/elephone/p9000/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/elephone/p9000/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v1.so:system/lib64/lib_agoldlens_dw9714af_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v2.so:system/lib64/lib_agoldlens_dw9714af_v2.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9714af_v3.so:system/lib64/lib_agoldlens_dw9714af_v3.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9800af_v1.so:system/lib64/lib_agoldlens_dw9800af_v1.so \
- vendor/elephone/p9000/proprietary/lib64/lib_agoldlens_dw9800af_v2.so:system/lib64/lib_agoldlens_dw9800af_v2.so \
- vendor/elephone/p9000/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
- vendor/elephone/p9000/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
- vendor/elephone/p9000/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
- vendor/elephone/p9000/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
- vendor/elephone/p9000/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v1.so:system/lib/lib_agoldlens_dw9714af_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v2.so:system/lib/lib_agoldlens_dw9714af_v2.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9714af_v3.so:system/lib/lib_agoldlens_dw9714af_v3.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9800af_v1.so:system/lib/lib_agoldlens_dw9800af_v1.so \
- vendor/elephone/p9000/proprietary/lib/lib_agoldlens_dw9800af_v2.so:system/lib/lib_agoldlens_dw9800af_v2.so \
- vendor/elephone/p9000/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
- vendor/elephone/p9000/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
- vendor/elephone/p9000/proprietary/lib/libfeatureio.jpg.so:system/lib/libfeatureio.jpg.so \
- vendor/elephone/p9000/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
- vendor/elephone/p9000/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
  vendor/elephone/p9000/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/elephone/p9000/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
@@ -662,11 +522,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
  vendor/elephone/p9000/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
  vendor/elephone/p9000/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
- vendor/elephone/p9000/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/landmark_group_meta_data.bin \
- vendor/elephone/p9000/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
- vendor/elephone/p9000/proprietary/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin:system/vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.8/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32-tree7-wmd.bin \
- vendor/elephone/p9000/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
  vendor/elephone/p9000/proprietary/xbin/BGW:system/xbin/BGW \
  vendor/elephone/p9000/proprietary/xbin/MPED:system/xbin/MPED \
- vendor/elephone/p9000/proprietary/xbin/mnld:system/xbin/mnld \
- vendor/elephone/p9000/proprietary/xbin/nfcstackp:system/xbin/nfcstackp
+ vendor/elephone/p9000/proprietary/xbin/mnld:system/xbin/mnld
