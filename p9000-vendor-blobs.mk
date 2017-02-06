@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2015 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -148,9 +148,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt \
  vendor/elephone/p9000/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
  vendor/elephone/p9000/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
- vendor/elephone/p9000/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
  vendor/elephone/p9000/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/elephone/p9000/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/elephone/p9000/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
@@ -158,7 +155,6 @@ PRODUCT_COPY_FILES += \
  vendor/elephone/p9000/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/hwcomposer.mt6755.so:system/lib/hw/hwcomposer.mt6755.so \
- vendor/elephone/p9000/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/elephone/p9000/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
